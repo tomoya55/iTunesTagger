@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/../lib/ext/rexml_document_extension'
+require File.dirname(__FILE__) + '/../lib/ext/rexml_extension'
 
 describe "extended REXML" do
   
