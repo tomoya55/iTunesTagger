@@ -5,10 +5,6 @@ require "rexml/document"
 # refer to http://d.hatena.ne.jp/funnystone/20071015/1192463795
 class REXML::Element
   
-  def to_s
-    text
-  end
-  
   def method_missing(name, *args)
     name = name.to_s
     if(name[0, 1] == '_')
@@ -39,9 +35,6 @@ end
 # ==== Description
 # refer to http://d.hatena.ne.jp/funnystone/20071015/1192463795
 class REXML::Document
-  def to_s
-    text
-  end
   
   def method_missing(name, *args)
     name = name.to_s
