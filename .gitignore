@@ -2,3 +2,5 @@
 *.log
 *.conf
 *.tmproj
+nbproject
+dump.txt
