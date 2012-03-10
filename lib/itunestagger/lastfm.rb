@@ -12,8 +12,8 @@ module ITunesTagger
     
     URL      = 'https://www.last.fm'
     ROOT     = 'http://ws.audioscrobbler.com/2.0'
-    API_KEY  = 'ea87a9c09e0c81408b2e0b73b37ba8a3'
-    SECRET   = '89a97c48a9850220bc6ddf522ae09503'
+    API_KEY  = 'KEY'
+    SECRET   = 'SECRET'
     
     def parse_response(xmlstr)
       begin
